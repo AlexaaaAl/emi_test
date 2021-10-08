@@ -1,0 +1,42 @@
+html,body{
+    max-width:100%;
+    }
+header{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.header_menu{
+    margin-right: 100px;
+    ul{
+        list-style: none;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        gap: 1rem;
+    }
+}
+main{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.preview{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
+.cards{
+    max-width: 66.6666%;
+}
+.menu{
+}
+.about{
+    max-width: 100%;
+}
